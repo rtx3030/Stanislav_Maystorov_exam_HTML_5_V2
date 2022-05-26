@@ -1,0 +1,159 @@
+<!DOCTYPE html> <!--indique la version de html--> 
+<html> <!--indique au navigateur que c’est un fichier html-->
+	<head> <!--ce que le navigateur doit lire mais pas l’usager-->
+		<title></title> <!--titre sur l'onglet-->
+		<meta charset="utf-8"/> <!--définit l'encodage pour le navigateur-->
+		<meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" /><!--adaptativité selon device. lié au css-->
+		<link rel="stylesheet" href="css/style1.css" type="text/css"/> <!--lien avec le css-->
+	</head>
+	
+	<body>
+
+		
+		<section id="wrap"><!--permet de définir la largeur de ce qui sera visible. id réfère au css-->
+			<header> <!--en-tête de page-->
+				
+			</header>
+			<div class= "header">ExtraVeganza</div>	
+			<div class= "header2">La tartinade au chocolat la plus nutritive</div>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="image/home-icon-green.jpg" alt="retour au menu principal"></a></li>
+					</ul>	
+				</nav>
+				
+			<nav> <!--menu de navigation-->
+				<ul> <!--liste à puces-->
+					<li class="navbuttonlocation"><a href= "page/Nos_produits.html" class="navbutton">Nos produits</a></li>
+					<li class="navbuttonlocation"><a href="page/Nos_avantages.html" class="navbutton">Nos avantages</a></li>
+					<li class="navbuttonlocation"><a href="page/A_ propos_de_nos_produit.html" class="navbutton">À propos de notre produit</a></li>
+					<li class="navbuttonlocation"><a href="page/A_ propos_de_nous.html" class="navbutton">À propos de nous</a></li>
+					<li class="navbuttonlocation"><a href="page/FAQ.html" class="navbutton">FAQ</a></li>
+				</ul>		
+			</nav>
+			<nav> <!--menu de navigation-->
+				<ul> <!--liste à puces-->
+					<li class="navbuttonlocation"><a href="page/Objectif_du_site.html" class="navbutton">Objectif du site</a></li>
+					<li class="navbuttonlocation"><a href="page/Site_interets.html" class="navbutton">Site d'intérêts</a></li>
+					<li class="navbuttonlocation"><a href="page/Plan_du_site.html" class="navbutton">Plan du site</a></li>
+					<li class="navbuttonlocation"><a href="page/Ou_nous_trouver.html" class="navbutton">Où nous trouver</a></li>
+				</ul>		
+			</nav>
+			
+			
+			<p class="text6">Ici vous aller trouver une présentation de nos produits à des consommateurs potentiels, d'expliquer nos avantages et nos objectifs en tant qu'entreprise familiale et éco-responsable.</p>
+			<p class="text6">En bref,toutes les informations nécessaires où nous trouver en magasin, notre histoire et notre mission.</p>
+			<!--
+			<p class="text6">Le but de ce site Web est de présenter nos produits à des clients potentiels, d'expliquer nos avantages et nos objectifs en tant qu'entreprise.</p>
+			<p class="text6">Vous pouvez aussi trouver toutes les informations nécessaires pour nous trouver en magasin, notre histoire et notre mission.</p>
+			-->
+			<img class="HomeImage" src="image/og_chocolat_jar.png" alt="menu principal">
+			
+			
+			
+		<!--image slider start				
+	<div class="slider">
+		<div class="slides">
+			<!--radio buttons start
+			<input type="radio" name="radio-btn" id="radio1">
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+			<input type="radio" name="radio-btn" id="radio4">
+			<input type="radio" name="radio-btn" id="radio5">
+			<input type="radio" name="radio-btn" id="radio6">
+			<input type="radio" name="radio-btn" id="radio7">
+			<input type="radio" name="radio-btn" id="radio8">
+			<!--radio buttons end
+			<!--slide images start
+			<div class="slide first">
+				<a href="page/Nos_produits.html"><img src="image/chocolat_jar.png" alt="Nos produits"></a>
+			</div>
+			<div class="slide">
+				<a href="page/A_ propos_de_nos_produit.html"><img src="image/about_our_products.jpg" alt="À propos de nos produit"></a>
+			</div>
+			<div class="slide">
+				<a href="page/Nos_avantages.html"><img src="image/Our_Adventages.jpg" alt="Nos avantages"></a>
+			</div><div class="slide">
+				<a href="page/A_ propos_de_nous.html"><img src="image/A_ propos_de_nous.png" alt="À propos de nous"></a>
+			</div>
+			<div class="slide">
+				<a href="page/FAQ.html"><img src="image/FAQ.bmp" alt="FAQ"></a>
+			</div>
+			<div class="slide">
+				<a href="page/Site_interets.html"><img src="image/Site_interets.bmp" alt="Site d'intérêts"></a>
+			</div>
+			<div class="slide">
+				<a href="page/Plan_du_site.html"><img src="image/Plan_du_site.png" alt="Plan du site"></a>
+			</div>
+			<div class="slide">
+				<a href="page/Ou_nous_trouver.html"><img src="image/Ou_nous_trouver.jpg" alt="Où nous trouver"></a>
+			</div>
+			<!--slide images end
+			<!--automatic navigation start
+			<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+				<div class="auto-btn5"></div>
+				<div class="auto-btn6"></div>
+				<div class="auto-btn7"></div>
+				<div class="auto-btn8"></div>
+			</div>
+			<!--automatic navigation end
+		</div>
+		<!--manual navigation start
+		<div class="navigation-manual">
+			<label for="radio1" class="manual-btn"> </label>
+			<label for="radio2" class="manual-btn"> </label>
+			<label for="radio3" class="manual-btn"> </label>
+			<label for="radio4" class="manual-btn"> </label>
+			<label for="radio5" class="manual-btn"> </label>
+			<label for="radio6" class="manual-btn"> </label>
+			<label for="radio7" class="manual-btn"> </label>
+			<label for="radio8" class="manual-btn"> </label>
+		</div>
+		<!--manual navigation end
+	</div>
+		<!--image slider end
+		<script type="text/javascript">
+			var counter = 1;
+			setInterval(function(){
+				document.getElementById('radio' + counter).checked = true;
+				counter++;
+				if(counter > 8){
+					counter = 1;
+					}
+				},5000);
+		</script>
+		-->
+
+
+
+<!--************************************************-->
+
+<!--******************style="visibility:hidden"******************************-->
+			<main><!-- contenu principal de la page-->
+				
+			</main>
+<!--************************************************-->		
+			<footer><!--pied de page-->
+				<li><a class="url4" href="page/Plan_du_site.html">Plan du site</a></li>
+				<li><a class="url4" href="https://outlook.live.com/owa/">Contactez-nous</a></li>
+				<li><a href="https://www.facebook.com/"><img class="socialmediaicon" src="image/facebook.png" alt="facebook"></a></li>
+				<li><a href="https://twitter.com/?lang=fr"><img class="socialmediaicon" src="image/twitter.png" alt="twitter"></a></li>
+				<li><a href="https://www.linkedin.com/company/69167452/admin/"><img class="socialmediaicon" src="image/linkedin.png" alt="linkedin"></a></li>
+				<p class= "text12"> navigateurs supportés par le site: Chrome, Opéra, Safari, Edge et FireFox</p>
+			</footer>
+					<p class= "text7">Music: The Cutest Bunny by Shane Ivers - https://www.silvermansound.com - Licensed under Creative Commons Attribution 4.0 International License - https://creativecommons.org/licenses/by/4.0/ - Music promoted by https://www.chosic.com/ </p>
+			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/6khzvlZuR10" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+			
+ 
+
+			
+			<audio id="player" autoplay loop>
+				<source src="audio/BackgroundMusic.mp3" type="audio/mp3">
+			</audio>
+		</section>
+	</body>
+</html>
